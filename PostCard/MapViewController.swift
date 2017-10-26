@@ -52,7 +52,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, UINavigationContro
         checkSendOrReceive()
         
         getLengthOfTable(tableName: "SentPostCards")
-        print(postcardTableCount)
 
         let sendOrReceivedTapped = UITapGestureRecognizer(target: self, action: #selector(self.sendOrReceiveTapped(sender:)))
         
@@ -175,7 +174,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, UINavigationContro
         var imageURL = "https://api.backendless.com/\(APPLICATION_ID)/\(API_KEY)/files/media/\(id2).JPG" as String
         let url = NSURL(string: imageURL)
         let data = NSData(contentsOf: url! as URL)
-        print(imageURL)
         let image = UIImage(data: data! as Data)!
         let pc = PostCard(frame: CGRect(x: 0, y: height, width: width, height: height), id: id, country: country, city: city, text: text, dateString: dateString, image: image)
         self.view.addSubview(pc)
@@ -290,7 +288,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UINavigationContro
 
     func getLengthOfTable(tableName: String) {
         // retrieves all of table
-        let dataStore = self.backendless.data.ofTable(pinTable)
+        let dataStore = self.backendless.data.ofTable(tableName)
         
         dataStore?.find({
             (array) -> () in

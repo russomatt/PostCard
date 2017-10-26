@@ -12,14 +12,13 @@
 		0F22E1B41E8407D1004B722A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F22E1B21E8407D1004B722A /* Main.storyboard */; };
 		0F22E1B91E8407D1004B722A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F22E1B71E8407D1004B722A /* LaunchScreen.storyboard */; };
 		255B9C5FEF42FACC045A1A5D /* libPods-PostCard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC8131DFCD8F8DD3FAC6668 /* libPods-PostCard.a */; };
-		C909677F1F09001600F68099 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909677E1F09001600F68099 /* CustomAnnotation.swift */; };
 		C90967811F09536700F68099 /* PostCardCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90967801F09536700F68099 /* PostCardCreation.swift */; };
 		C90967871F0D8A5800F68099 /* Recipients.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90967861F0D8A5800F68099 /* Recipients.swift */; };
 		C90967891F0F06B200F68099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90967881F0F06B200F68099 /* Assets.xcassets */; };
 		C909678B1F0F06EB00F68099 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909678A1F0F06EB00F68099 /* CustomSegmentedControl.swift */; };
 		C909678D1F0F074A00F68099 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C909678C1F0F074A00F68099 /* images.xcassets */; };
+		C90967911F10D47B00F68099 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90967901F10D47B00F68099 /* CustomAnnotation.swift */; };
 		C93E88091EE8422500051502 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E88081EE8422500051502 /* MapViewController.swift */; };
-		C9E822DB1EF9636A00EC0261 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E822DA1EF9636A00EC0261 /* CustomSegmentedControl.swift */; };
 		C9E822DD1EF9AC3C00EC0261 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E822DC1EF9AC3C00EC0261 /* PostCard.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,14 +32,13 @@
 		0F22E1B81E8407D1004B722A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F22E1BA1E8407D1004B722A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B48A68C0342D45BC2B092E42 /* Pods-PostCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostCard/Pods-PostCard.release.xcconfig"; sourceTree = "<group>"; };
-		C909677E1F09001600F68099 /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		C90967801F09536700F68099 /* PostCardCreation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCardCreation.swift; sourceTree = "<group>"; };
 		C90967861F0D8A5800F68099 /* Recipients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipients.swift; sourceTree = "<group>"; };
 		C90967881F0F06B200F68099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C909678A1F0F06EB00F68099 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 		C909678C1F0F074A00F68099 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		C90967901F10D47B00F68099 /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		C93E88081EE8422500051502 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		C9E822DA1EF9636A00EC0261 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 		C9E822DC1EF9AC3C00EC0261 /* PostCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,14 +77,13 @@
 			children = (
 				0F22E1AE1E8407D1004B722A /* AppDelegate.swift */,
 				0F22E1B01E8407D1004B722A /* ViewController.swift */,
+				C90967901F10D47B00F68099 /* CustomAnnotation.swift */,
 				0F22E1B21E8407D1004B722A /* Main.storyboard */,
 				C90967881F0F06B200F68099 /* Assets.xcassets */,
 				C93E88081EE8422500051502 /* MapViewController.swift */,
-				C909677E1F09001600F68099 /* CustomAnnotation.swift */,
 				C909678C1F0F074A00F68099 /* images.xcassets */,
 				0F22E1B71E8407D1004B722A /* LaunchScreen.storyboard */,
 				0F22E1BA1E8407D1004B722A /* Info.plist */,
-				C9E822DA1EF9636A00EC0261 /* CustomSegmentedControl.swift */,
 				C90967801F09536700F68099 /* PostCardCreation.swift */,
 				C909678A1F0F06EB00F68099 /* CustomSegmentedControl.swift */,
 				C9E822DC1EF9AC3C00EC0261 /* PostCard.swift */,
@@ -243,9 +240,8 @@
 				C93E88091EE8422500051502 /* MapViewController.swift in Sources */,
 				0F22E1AF1E8407D1004B722A /* AppDelegate.swift in Sources */,
 				C909678B1F0F06EB00F68099 /* CustomSegmentedControl.swift in Sources */,
-				C9E822DB1EF9636A00EC0261 /* CustomSegmentedControl.swift in Sources */,
 				C90967811F09536700F68099 /* PostCardCreation.swift in Sources */,
-				C909677F1F09001600F68099 /* CustomAnnotation.swift in Sources */,
+				C90967911F10D47B00F68099 /* CustomAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
